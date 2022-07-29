@@ -20,6 +20,8 @@ Brief update of our project
 10. nprogress (nanoscopic progress bar)
 
 # Installation:
+Note: Create a .env file in your server folder 
+        1. Add DATABASE_URL= "YOUR MONGO URI"
 
 1.  git clone https://github.com/E-ggle/HortiPedia
 2.  cd HortiPedia
