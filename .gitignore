@@ -1,0 +1,16 @@
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+.next
+
+# testing
+
+# production
+/build
+
+# misc
+.env
+
+.vercel
