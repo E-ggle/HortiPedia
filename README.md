@@ -23,10 +23,10 @@ Brief update of our project
 
 1.  git clone https://github.com/E-ggle/HortiPedia
 2.  cd HortiPedia
-3.  cd client -> npm install or yarn add -> npm run dev -- -p PORT
+3.  cd client -> npm install or yarn add -> npm run dev -- -p PORT <br/>
     // open a new terminal to install server
-4.  cd server -> npm install or yarn add -> npm run dev
+4.  cd server -> npm install or yarn add -> npm run dev <br/>
     // open a new terminal to install Farm-Community
-5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm start
+5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm start <br/>
     // to run the peerjs network
 6.  cd client -> cd Farm-Community -> npm i -g peer -> peerjs --port PORT
