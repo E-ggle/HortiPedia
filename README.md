@@ -19,6 +19,14 @@ Brief update of our project
 9. axios
 10. nprogress (nanoscopic progress bar)
 
-#Installation:
+# Installation:
 
 1.  git clone https://github.com/E-ggle/HortiPedia
+2.  cd HortiPedia
+3.  cd client -> npm install or yarn add -> npm run dev -- -p PORT
+    // open a new terminal to install server
+4.  cd server -> npm install or yarn add -> npm run dev
+    // open a new terminal to install Farm-Community
+5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm start
+    // to run the peerjs network
+6.  cd client -> cd Farm-Community -> npm i -g peer -> peerjs --port PORT
