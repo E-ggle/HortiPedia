@@ -1,6 +1,6 @@
 # HortiPedia
 
-Let me brief update of our project
+Brief update of our project
 
 # Features:
 1. Hortipedia is a question and answer website for professional and developing farmers.
@@ -21,4 +21,4 @@ Let me brief update of our project
 
 #Installation:
 
-1.  git clone
+1.  git clone https://github.com/E-ggle/HortiPedia
