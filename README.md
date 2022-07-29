@@ -31,4 +31,4 @@ Brief update of our project
 6.  cd client -> cd Farm-Community -> npm i -g peer -> peerjs --port PORT
 
 Note: Create a .env file in your server folder <br/>
-        1. Add DATABASE_URL= "YOUR MONGO URI"
+         Add DATABASE_URL= "YOUR MONGO URI"
