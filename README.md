@@ -20,9 +20,6 @@ Brief update of our project
 10. nprogress (nanoscopic progress bar)
 
 # Installation:
-Note: Create a .env file in your server folder <br/>
-        1. Add DATABASE_URL= "YOUR MONGO URI"
-
 1.  git clone https://github.com/E-ggle/HortiPedia
 2.  cd HortiPedia
 3.  cd client -> npm install or yarn add -> npm run dev -- -p PORT <br/>
@@ -32,3 +29,6 @@ Note: Create a .env file in your server folder <br/>
 5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm start <br/>
     // to run the peerjs network
 6.  cd client -> cd Farm-Community -> npm i -g peer -> peerjs --port PORT
+
+Note: Create a .env file in your server folder <br/>
+        1. Add DATABASE_URL= "YOUR MONGO URI"
