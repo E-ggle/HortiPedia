@@ -26,7 +26,7 @@ const QuestionForm = () => {
         try {
           await authAxios.post('questions', values)
           resetForm({})
-          router.push('/')
+          router.push('/Home')
         } catch (error) {
           setStatus(error.response.data.message)
         }
@@ -71,7 +71,7 @@ const QuestionForm = () => {
               onBlur={handleBlur}
               hasError={touched.title && errors.title}
               errorMessage={errors.title && errors.title}
-              placeholder="e.g Is there an R function for finding the index of an element in a vendor?"
+              placeholder="e.g What can I do to improve my Cultivation?"
             />
             <Textarea
               label="Body"

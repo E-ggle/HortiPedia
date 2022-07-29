@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Head from 'next/head'
 
 import QuestionAskView from '../../components/question-ask-view'
@@ -9,7 +9,7 @@ const Ask = () => {
   return (
     <div>
       <Head>
-        <title>Ask a Question - Clone of Stackoverflow</title>
+        <title>Ask a Question - HortiPedia</title>
       </Head>
 
       <Header />

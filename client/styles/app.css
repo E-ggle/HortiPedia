@@ -94,3 +94,29 @@ a {
   margin-top: 10px;
   text-align: center;
 } 
+
+.img-main{
+  background: url("https://imgnew.outlookindia.com/public/uploads/articles/2021/5/21/Picture_(3).jpg");
+
+  height: 712px;
+
+}
+
+.img-btn{
+  margin: 250px;
+  margin-left: 675px;
+  margin-top:320px;
+  background-color: orange;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.img-btn:hover{
+  background-color: rgb(123, 255, 127);
+  transition: 0.8s;
+  color: black;
+}
