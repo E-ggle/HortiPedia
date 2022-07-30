@@ -11,34 +11,36 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
-		<title>ZoomCord</title>
+		<title>Farm-Assistance</title>
+		<link rel="shortcut icon" href="fa" type="image/x-icon">
 	</head>
 	<body>
 		<div class="join-container">
 			<header class="join-header">
-				<h1><i class="fas fa-video"></i> ZoomCord</h1>
+				<h1><i class="fas fa-comments"></i>Farm-Assistance</h1>
 			</header>
 			<main class="join-main">
 				<form action="chat.html">
 					<div class="form-control">
+
 						<label for="username">Username</label>
 						<input
 							type="text"
 							name="username"
 							id="username"
-							placeholder="Enter username..."
+							placeholder="Enter a username to join"
 							required
 						/>
 					</div>
 					<div class="form-control">
-						<label for="room">Room</label>
+						<label for="room">Channel</label>
 						<select name="room" id="room">
-							<option value="Malaysia">Malaysia</option>
-							<option value="Indonesia">Indonesia</option>
-							<option value="Singapore">Singapore</option>
+							<option value="#General">#General</option>
+							<option value="#Farm-Assistant">#Farm-Assistant</option>
+							<option value="#ContributorChannel">#ContributorChannel</option>
 						</select>
 					</div>
-					<button type="submit" class="btn">Join Chat</button>
+					<button type="submit" class="btn">Join Channel</button>
 				</form>
 			</main>
 		</div>
