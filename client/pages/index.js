@@ -1,15 +1,68 @@
 import React from 'react'
+import styles from './index.module.css'
 import Head from 'next/head'
+import Type from './Type'
 
 const HomePage = () => {
   return (
-    <div className="img-main">
+    <div className={styles.main}>
       <Head>
-        <title>HortiPedia-Main Page</title>
+        <title>HortiPedia</title>
       </Head>
-      <a href="./Home">
-        <button className="img-btn">Link me to HortiPedia</button>
-      </a>
+      <section className={styles.section}>
+        <div className={styles.container}>
+          <header className={styles.header}>
+            <a color="" href="#" className={styles.logo}>
+              HORTIPEDIA
+            </a>
+            <ul>
+              <li>
+                <a href="#" className={styles.active}>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:3006">Weather</a>
+              </li>
+              <li>
+                <a href="#">Stats </a>
+              </li>
+              <li>
+                <a href="/About">Understand Us </a>
+              </li>
+            </ul>
+          </header>
+          <div className={styles.content}>
+            <h2>
+              <font>WELCOME</font>
+            </h2>
+            <p>
+              <Type />
+            </p>
+            <a href="/QA">Lets Dive On</a>
+          </div>
+          <div className={styles.imgbx}>
+            <img src="https://raw.githubusercontent.com/Thilagavijayan/lpage/master/profit.png"></img>
+          </div>
+          <ul className={styles.sci}>
+            <li>
+              <a href="#">
+                <img src="https://raw.githubusercontent.com/Thilagavijayan/lpage/master/instagram.png" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://raw.githubusercontent.com/Thilagavijayan/lpage/master/facebook.png" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="https://raw.githubusercontent.com/Thilagavijayan/lpage/master/twitter.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </div>
   )
 }

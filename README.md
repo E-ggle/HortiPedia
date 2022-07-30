@@ -1,5 +1,4 @@
 # HortiPedia
-
 Brief update of our project
 
 # Features:

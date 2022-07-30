@@ -13,9 +13,9 @@ const Navigation = () => {
   return (
     <nav className={styles.nav}>
       <NavItem
-        href="/Home"
+        href="/QA"
         selected={
-          router.pathname == '/Home' ||
+          router.pathname == '/question' ||
           router.pathname.split('/')[1] == 'questions'
         }
       >

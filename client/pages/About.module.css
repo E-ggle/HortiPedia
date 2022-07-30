@@ -1,0 +1,78 @@
+.main{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+.body{
+    min-height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.aboutsection{
+    background: url("https://www.epfl.ch/schools/sv/sv-in/wp-content/uploads/2019/09/VisuelSV-IN-1920x1080.jpg") no-repeat left;
+    background-size: 45%;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-left: 10px;
+    padding: 0px ;
+}
+
+.innercontainer{
+    width: 48%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 0px ;
+    
+}
+
+.innercontainer h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #3c3636;
+    line-height: 30px;
+    width: 1000px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+@media screen and (max-width:1200px){
+    .innercontainer{
+        padding: 80px;
+    }
+}
+ 
+@media screen and (max-width:1000px){
+    .aboutsection{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .innercontainer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .aboutsection{
+        padding: 0;
+    }
+    .innercontainer{
+        width: 100%;
+    }
+}   
