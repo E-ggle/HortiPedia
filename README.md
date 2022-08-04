@@ -4,7 +4,8 @@ Brief update of our project
 # Features:
 1. Hortipedia is a question and answer website for professional and developing farmers.
 2. It has a chat forum where the farmers or students can get live interacted with professionals.
-3. -> Bidding App where the farmers can bid their cultivations over there.
+3. Auto Weather forecasts detect the system location and send the current temperature and humidity. 
+4. It has an economic statistics page for investors and buyers where they can get the data on their crops for future production. 
 
 # Tech Stack:
 1. Reactjs
