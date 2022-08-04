@@ -15,6 +15,8 @@ import '../styles/variables.css'
 import '../styles/nprogress.css'
 import 'react-tagsinput/react-tagsinput.css'
 import '../styles/app.css'
+// add bootstrap css
+import 'bootstrap/dist/css/bootstrap.css'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())

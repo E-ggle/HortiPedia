@@ -98,7 +98,7 @@
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 2px solid rgba(255, 255, 255, 0.5);
     padding: 40px;
-    padding-left: 120px;
+    padding-left: 100px;
 }
 .content h2{
     font-size: 4em;
@@ -111,6 +111,7 @@
 .content p{
     font-size: 1.5em;
     color:#de2a2d;
+    margin-left:-40px;
     
 }
 .content a{
@@ -222,7 +223,8 @@
         display: inline-block;
     }
     .imgbx{
-        margin-bottom: 50px;
+        margin-bottom: -80px;
+        padding-top: 30px;
     }
     .content a{
         font-size: 1 em;

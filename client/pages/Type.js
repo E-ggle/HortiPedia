@@ -6,14 +6,14 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          'Join our hands to save Earth by Agriculture....',
-          'Join our Q&A',
-          'Join our Community',
-          'Check the weather in your area'
+          'Join our hands to save Earth by Agriculture',
+          'Join our Q&A to explore your doubts',
+          'Join our Community to interact with mentor',
+          'Check the weather forcast in your city'
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50
+        deleteSpeed: 40
       }}
     />
   )

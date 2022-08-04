@@ -13,7 +13,10 @@ const Modal = ({ children, className, ...props }) => {
     <>
       <div className={cn(styles.modal, className)} {...props}>
         <div ref={ref} className={styles.modalDialog}>
-          <Button className={styles.closeButton} onClick={() => setIsComponentVisible((isOpen) => !isOpen)}>
+          <Button
+            className={styles.closeButton}
+            onClick={() => setIsComponentVisible((isOpen) => !isOpen)}
+          >
             <Close />
           </Button>
           {children}

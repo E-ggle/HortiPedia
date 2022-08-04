@@ -26,7 +26,6 @@ const PageTitle = ({ title, button, borderBottom = true, children }) => {
         </div>
       </div>
       {children && <p className={styles.summary}>{children}</p>}
-      
     </div>
   )
 }

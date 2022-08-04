@@ -17,15 +17,13 @@ const HomePage = () => {
             </a>
             <ul>
               <li>
-                <a href="#" className={styles.active}>
-                  Home
-                </a>
+                <a className={styles.active}>Home</a>
               </li>
               <li>
                 <a href="http://localhost:3006">Weather</a>
               </li>
               <li>
-                <a href="#">Stats </a>
+                <a href="/Stats">Stats </a>
               </li>
               <li>
                 <a href="/About">Understand Us </a>
