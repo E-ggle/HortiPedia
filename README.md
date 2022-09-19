@@ -22,13 +22,16 @@ Brief update of our project
 # Installation:
 1.  git clone https://github.com/E-ggle/HortiPedia
 2.  cd HortiPedia
-3.  cd client -> npm install or yarn add -> npm run dev -- -p PORT <br/>
+3.  cd client -> npm install or yarn add -> npm run dev -- -p 3006 <br/>
     // open a new terminal to install server
 4.  cd server -> npm install or yarn add -> npm run dev <br/>
     // open a new terminal to install Farm-Community
-5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm start <br/>
+5.  cd client -> cd Farm-Community -> npm install or yarn add -> npm run dev
+ <br/>
     // to run the peerjs network
-6.  cd client -> cd Farm-Community -> npm i -g peer -> peerjs --port PORT
+6.  cd client -> cd Farm-Community -> npm i -g peer ->peerjs --port 3001
+   // to run the weather application
+7.  cd client -> cd weather-app -> npm start 
 
 Note: Create a .env file in your server folder <br/>
          Add DATABASE_URL= "YOUR MONGO URI"

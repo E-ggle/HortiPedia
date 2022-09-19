@@ -34,11 +34,13 @@
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
+    margin-left: 50px;
 }
 
 .text{
     font-size: 13px;
     color: #3c3636;
+    margin-left: 50px;
     line-height: 30px;
     width: 1000px;
     text-align: justify;
@@ -49,6 +51,7 @@
     display: flex;
     justify-content: space-between;
     font-weight: 700;
+    
     font-size: 30px;
 }
 

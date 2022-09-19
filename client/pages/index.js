@@ -20,7 +20,7 @@ const HomePage = () => {
                 <a className={styles.active}>Home</a>
               </li>
               <li>
-                <a href="http://localhost:3006">Weather</a>
+                <a href="http://localhost:3007">Weather</a>
               </li>
               <li>
                 <a href="/Stats">Stats </a>
